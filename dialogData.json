@@ -1,0 +1,7 @@
+{
+    "text" : "Are You Sure You Want To Continue?",
+    "button_one_text" : "Yes",
+    "button_one_value" : "Yes",
+    "button_two_text" : "Cancel",
+    "button_two_value" : "Cancel"
+}

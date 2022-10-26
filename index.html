@@ -1,0 +1,29 @@
+<script src="index.js"></script> 
+
+<div>
+    <head>
+        <link rel="stylesheet" href="sitematestylesheet.css">
+    </head>
+    <div class="title">
+        Sitemate Quiz
+    </div>
+    <div class="nice-button">
+        <button onclick="openDialogBox('Yes', 'Cancel', 'Are You Sure You Want To Continue?')">Click Me!</button>
+    </div>
+    <div>
+        <label id="ButtonResults"></label>
+    </div>
+</div>
+
+
+<!-- The Dialog -->
+<dialog id="reusableDialog">
+    <html>
+        <div class="dialog">
+            <label id="dialogText"></label>
+            <button id="buttonOne" onclick="buttonClick('buttonOne')"></button>
+            <button id="buttonTwo" onclick="buttonClick('buttonTwo')"></button>
+            </div>
+        </div>
+    </html>
+</dialog>
